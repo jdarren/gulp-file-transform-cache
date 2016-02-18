@@ -1,14 +1,23 @@
 {
   "name": "gulp-file-transform-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Store intermediate gulp transformations in a cache for faster build pipeline.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "gulpplugin"
+    "gulpplugin",
+    "cache"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdarren/gulp-file-transform-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdarren/gulp-file-transform-cache/issues"
+  },
+  "homepage": "https://github.com/jdarren/gulp-file-transform-cache#readme",
   "author": "J. Darren James",
   "license": "MIT",
   "dependencies": {
