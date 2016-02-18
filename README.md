@@ -30,7 +30,7 @@ if it's stale...
 ```javascript
 
 var gulp  = require('gulp'),
-    babel = require('gulp-babel');
+    babel = require('gulp-babel'),
     gftc  = require('gulp-file-transform-cache');
 
 gulp.src(['js/**/*.jsx'])
