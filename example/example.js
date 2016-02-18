@@ -6,9 +6,10 @@ var gulp         = require('gulp'),
     gulpTfc      = require('../lib');
 
 gulp.src(['data/*.txt'])
-    .pipe(gulpTfc({ path: '.sampleCache',
-       transformStream: gulpPrefixer('** Fred\n')
-                        .pipe(gulpPrefixer('** Joe\n'))
+    .pipe(gulpTfc({ path: '.exampleCache',
+       transformStreams: [ gulpPrefixer('** Fred\n'),
+                           gulpPrefixer('** Joe\n')   ]
+
     }))
     .pipe((() => {
         return through.obj( (file,enc, next) => {
