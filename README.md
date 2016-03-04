@@ -48,7 +48,7 @@ The path to the cache-file which will be read/written to maintain the transform 
 
 ##### `transformStreams`
 An array of streams to provide any number of successive transformations. For Example
-`[ babel(), minify() ]` would be equivalent to `babel().pile(minify())`. If only one
+`[ babel(), minify() ]` would be equivalent to `babel().pipe(minify())`. If only one
 transform is needed, the array can be omitted. (e.g. `transformStreams: babel()` )
 
 
