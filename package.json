@@ -21,7 +21,7 @@
   "author": "J. Darren James",
   "license": "MIT",
   "dependencies": {
-    "file-transform-cache": "git@github.com:jdarren/file-transform-cache.git#metadata",
+    "file-transform-cache": "^1.0.5",
     "gulp-util": "^3.0.7",
     "lodash": "^4.3.0",
     "through2": "^2.0.1",
