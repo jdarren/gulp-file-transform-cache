@@ -1,6 +1,6 @@
 {
   "name": "gulp-file-transform-cache",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Store intermediate gulp transformations in a cache for faster build pipeline.",
   "main": "lib/index.js",
   "scripts": {
